@@ -771,12 +771,16 @@ textarea-data:focus {
   display: inline-block;
   border: 1px solid black;
   border-radius: 4px;
+  background-image: url(../images/icon-vector);
+  background-size: contain;
 }
 .checkbox:checked + .checkbox-icon {
   background-color: var(--icon-accent-cl);
-  background-image: url(../images/Vector.svg);
-  background-size: contain;
+  background-image: url(../images/vector.svg);
+  /* background-size: contain; */
+  background-position: center;
   background-origin: content-box;
+  border-color: transparent;
 }
 .icon-label {
   transform: scale(1.2);
